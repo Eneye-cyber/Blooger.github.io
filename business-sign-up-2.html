@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>SITENAME</title>
+
+              <!-- Custom Css Style -->
+              <link rel="stylesheet" href="css/style.css">
+              <link rel="preconnect" href="https://fonts.googleapis.com">
+              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+              <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+              <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+<body class="">
+  <!-- header -->
+  <header>
+    <nav id="navbar">
+      <div class="container flex space">
+        <div>
+          <img src="img\BAVIC 1.png" alt="" class="logo">
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li>
+              <a href="properties.html">Properties</a>
+            </li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li class="dropdown">
+              <a href="partners.html">Partners</a>
+              <div class="dropdown-content">
+                <a href="individual-agents.html">Individual Agent</a>
+                <a href="#">Corporate Partner</a>
+              </div>
+            </li>
+            <li><a href="contact-us.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="help-center.html">Help Center</a></li>
+            <div class="search-container mr-2">
+              <input type="text" name="search" placeholder="Search..." class="search-input">
+              <a href="#" class="search-btn">
+                  <i class="fa fa-search"></i>
+              </a>
+            </div>
+            <a href="login.html" class="btn btn-sm btn-secondary mr-2">Login</a>
+            <a href="sign-up.html" class="btn btn-sm btn-primary mr-2">Sign Up</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- section -->
+  <section class="sign-up-app pd-1">
+    <div class="sign-up-viewport">
+      <div class="container">
+        <div class="flex">
+          <div class="">
+            <div class="mb-4 dark">
+              <h3>Sign Up as A Business</h3>
+            </div>
+            <div class="flex mb-4">
+              <div class="mr-3 progress-bar progress-bar-active" id="b-specification" onclick="activateBSpec()">
+                <p>Business Specification</p>
+              </div>
+              <div class="mr-3 progress-bar" onclick="activateBInfo()" id="b-information">
+                <p>Business Owners Information</p>
+              </div>
+              <div class="progress-bar" onclick="activateId()" id="identity">
+                <p>Business Details</p>
+              </div>
+            </div>
+            <div class="">
+              <form action="" class="sign-up">
+                <div class="flex space">
+                  <div class="mb-4x">
+                    <label for="firstname" class="mb-2">First Name</label>
+                    <input type="text" name="User" class="form-input-lg mb-3">
+                    <label for="lastname" class="mb-2">Last Name</label>
+                    <input type="text" name="lastname" class="form-input-lg mb-3">
+                    <label for="middlename" class="mb-2">Middle Name (optional)</label>
+                    <input type="text" name="middlename" class="form-input-lg mb-3">
+                    <label for="phone" class="mb-2">Phone Number</label>
+                    <input type="number" name="phone" class="form-input-lg mb-3">
+                    <label for="relationship" class="mb-2">Marital status</label>
+                    <input type="text" name="relationship" class="form-input-lg mb-3">
+                    <label for="address" class="mb-2">Permanent address</label>
+                    <input type="text" name="address" class="form-input-lg mb-3">
+                  </div>
+
+                  <div>
+                    <label for="Profile-Pic" class="mb-2 dark">Profile picture</label>
+                    <input type="file" name="Profile-pic" value=""  class="form-input-sm mb-4 G-ID">
+                    <label for="Id" class="mb-2 dark">Valid Government Identity</label>
+                    <span class="label-span">(voters card, NIN, International passport, driver’s license)</span>
+                    <input type="file" name="Id" value="" class="form-input-sm mb-4 G-ID">
+                  </div>
+                </div>
+
+                <div class="link-center">
+                  <input type="submit" name="" value="Save" class="btn-secondary btn-center btn-l mb-3 mr-2 p">
+                  <input type="submit" name="" value="Submit" class="btn-primary btn-center btn-l mb-3 p">
+                </div>
+
+              </form>
+            </div>
+
+            </form>
+          </div>
+        </div>
+        <div class="chatbot fixed-chatbot">
+          <a href="">
+            <img src="img\ChatCircleDots.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="pd-1">
+    <div class="container flex">
+      <div class="col-sm phone-no">
+        <a href="#" class="mb-3">+234 907 832 0963</a>
+        <p>Let's find you together the place you want</p>
+      </div>
+      <div class="col-2 subscribe">
+        <p class="mb-4">Subscribe to our news letter</p>
+        <input type="email" placeholder="Enter your email" name="" value="">
+      </div>
+      <div class="col-sm">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Properties</a></li>
+          <li><a href="#">For Rent</a></li>
+          <li class="mb-2"><a href="#">For Lease</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+      <div class="col-sm">
+        <ul>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Help Centre</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container flex">
+      <p class="p-sm col-sm">© 2021 Bavic Properties</p>
+      <a href="#" class="">Terms and Conditions</a>
+      <a href="help-center.html#FAQS" class="ml-4 col-l">FAQ</a>
+      <div class="flex space socials">
+        <a href="#"><i class="fa fa-twitter-square"></i></a>
+        <a href="#"><i class="fa fa-twitter-square"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-facebook-square"></i></a>
+
+
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../js/fontawesome.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript">
+
+    var info = document.getElementById("b-information");
+    var id = document.getElementById("p-identity");
+    var infoImg = document.getElementById("p-info-img");
+    var idImg = document.getElementById("p-identity-img");
+    var identity = document.getElementById("identity");
+    var personal = document.getElementById("information");
+    function activateBSpec() {
+      info.style.display = "none";
+      infoImg.style.display = "none";
+      id.style.display = "block";
+      idImg.style.display = "block";
+      personal.classList.remove("progress-bar-active");
+      identity.classList.add("progress-bar-active");
+      console.log('Success');
+    }
+
+    function activateInfo() {
+      idImg.style.display = "none";
+      id.style.display = "none";
+      info.style.display = "initial";
+      infoImg.style.display = "initial";
+      personal.classList.add("progress-bar-active");
+      identity.classList.remove("progress-bar-active");
+      console.log('Success');
+    }
+  </script>
+
+
+
+
+</body>
+</html>
